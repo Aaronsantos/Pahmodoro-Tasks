@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "bulma/css/bulma.css";
 import "./styles.css";
-import PomoHeader from "./componentes/PomoHeader";
+import PomoHeader from './componentes/PomoHeader';
 
 function App() {
   return (
