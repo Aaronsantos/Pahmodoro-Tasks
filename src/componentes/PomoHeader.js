@@ -3,7 +3,7 @@ import React from "react";
 export class PomoHeader extends React.Component {
 
   render() {
-    let icone = this.props.work == true ? 'fa fa-fire' : 'fa fa-coffe'
+    let icone = this.props.work === true ? 'fa fa-fire' : 'fa fa-coffe'
 
     return (<header className="hero">
       <h1 className="title is-1">
