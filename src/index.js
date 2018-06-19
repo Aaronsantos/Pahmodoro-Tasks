@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "bulma/css/bulma.css";
 import "./styles.css";
-import PomoHeader from './componentes/PomoHeader';
+import { Body } from "./componentes/Body";
 
 function App() {
   return (
     <div className="App">
-      <PomoHeader work={true} />
+      <Body />
     </div>
   );
 }
